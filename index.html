@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>something</title>
+        <link rel="stylesheet" href="css/index.css"> 
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="container text-center">
+            <em><span class="js-weather text-right"></span></em>
+            <div class="js-clock">
+                <h1> 00:00 </h1>
+            </div>
+            <form class="js-image">
+                <input type="text" placeholder="배경화면 이미지 주소">
+            </form>
+
+            <form class="js-form form">
+                <input type="text" placeholder="What is your name?">
+            </form>
+            <div class="greeting-display">
+                <h4 class="js-greetings greeting"></h4>
+                <button class="js-changeName btn btn-info">이름변경</button>
+            </div>
+
+            <form class="js-toDoForm">
+                <input type="text" placeholder="Write a to do">
+            </form>
+            <button class="js-removeToDo btn btn-info">할 일 전부 삭제</button>
+            <ul class="js-toDoList">
+            </ul>
+        </div>
+        <script src="js/clock.js"></script>
+        <script src="js/greeting.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/bg.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
